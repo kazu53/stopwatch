@@ -4,6 +4,11 @@ border: 1px solid #333333;
 width:75px;
 font-size: 24px;
 font-weight: bold;
-background-color: green;
+background-color: #4d4d4d;
 color: #ffffff;
+}
+table td{/*table内のtdに対して*/
+  padding: 0px;/*上下3pxで左右10px*/
+  border-collapse: collapse;
+  valign="bottom";
 }
