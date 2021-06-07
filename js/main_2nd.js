@@ -13,13 +13,15 @@
     var startTime;
 
     //経過時刻を更新するための変数。 初めはだから0で初期化
-    var elapsedTime = 2700000;
+    //var elapsedTime = 2700000;
+    var elapsedTime = 2400000;
 
     //タイマーを止めるにはclearTimeoutを使う必要があり、そのためにはclearTimeoutの引数に渡すためのタイマーのidが必要
     var timerId;
 
     //タイマーをストップ -> 再開させたら0になってしまうのを避けるための変数。
-    var timeToadd = 2700000;
+    //var timeToadd = 2700000;
+    var timeToadd = 2400000;
 
 
     //ミリ秒の表示ではなく、分とか秒に直すための関数, 他のところからも呼び出すので別関数として作る
